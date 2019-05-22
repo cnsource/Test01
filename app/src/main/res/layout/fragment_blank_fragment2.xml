@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#039BE5"
+    tools:context=".BlankFragment2">
+
+    <TextView
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:id="@+id/conte"
+        android:layout_width="366dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#F4511E"
+        android:text="@string/textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/getinfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="Get Info"
+        app:layout_constraintEnd_toEndOf="@+id/conte"
+        app:layout_constraintStart_toStartOf="@+id/conte"
+        app:layout_constraintTop_toBottomOf="@+id/conte" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="report"
+        app:layout_constraintEnd_toEndOf="@+id/getinfo"
+        app:layout_constraintStart_toStartOf="@+id/getinfo"
+        app:layout_constraintTop_toBottomOf="@+id/getinfo" />
+
+</android.support.constraint.ConstraintLayout>
